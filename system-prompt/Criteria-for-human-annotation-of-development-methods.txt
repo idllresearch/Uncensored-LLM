@@ -1,0 +1,17 @@
+For models identified as ULLMs, annotators further extract development methods based solely on explicit evidence provided in the model metadata (e.g., model card or README). Annotators must rely strictly on stated information and must not infer development processes beyond what is directly supported by the text.
+
+We categorize development methods into five primary types: (1) training or fine-tuning, (2) refusal-direction ablation, (3) model merging, (4) compression, (5) others. Annotators may assign multiple method labels to a single model if supported by evidence.
+
+Training or fine-tuning: This category includes any explicit statement that the model has been trained or fine-tuned, such as phrases indicating supervised fine-tuning (SFT), direct preference optimization (DPO), or the use of parameter-efficient techniques (e.g., LoRA or QLoRA). When possible, annotators further classify this method into subtypes: training, full-parameter fine-tuning, or parameter-efficient fine-tuning. If the subtype cannot be determined explicitly, it should be marked as ``null''.
+
+Refusal-direction ablation: This category captures explicit descriptions of removing or weakening safety-aligned refusal behaviors using the refusal-direction ablation approach and its variants. Annotators assign this label only when the metadata includes clear statements such as ``abliterated'', ``obliterated'', ``refusal direction removed'', ``heretic'', or descriptions indicating ablation of refusal mechanisms.
+
+Model merging: This category includes models constructed by combining multiple existing models. Annotators assign this label when the metadata explicitly mentions merging-related operations, such as ``merge'', ``mergekit'', ``slerp'', ``task arithmetic'', or descriptions indicating that the model is fused from multiple sources. References to base models alone are insufficient unless merging is explicitly stated.
+
+Compression: This category includes explicit references to model size reduction techniques, such as quantization or pruning. Indicators include terms such as ``quantized'', ``GGUF'', ``GPTQ'', ``AWQ'', ``EXL2'', or numerical precision formats (e.g., int4 or int8). When applicable, annotators further specify subtypes such as quantization or pruning.  If the subtype cannot be determined explicitly, it should be marked as ``null''.
+
+Others: This category includes any other development methods, which do not belong to any of above four methods.
+
+Annotators may assign multiple development method labels if multiple techniques are explicitly described. If no development method is clearly stated in the metadata, annotators must assign no label and leave the field empty (or null). In all cases, annotators must avoid making assumptions based on common practices or typical workflows; only explicitly documented methods are considered valid evidence.
+
+Overall, annotators follow a conservative and evidence-based principle: development methods are recorded only when they are directly and unambiguously supported by the model metadata.

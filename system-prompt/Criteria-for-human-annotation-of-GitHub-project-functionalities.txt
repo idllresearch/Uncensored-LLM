@@ -1,0 +1,7 @@
+We classify each GitHub repository into exactly one functionality category from a functionality set. Annotators must base their decisions solely on the provided repository metadata, including the repository name, abstract, and README text. No external sources may be consulted, and annotators must not infer functionality beyond what is reasonably supported by explicit evidence in the provided materials.
+
+A repository is assigned to a category only when there is clear and explicit support in the metadata indicating that the repository primarily serves that functionality. References that are vague, indirect, or incidental do not constitute sufficient evidence for assigning a category.
+
+If multiple categories appear potentially relevant, annotators must select the single most appropriate category that is best supported by explicit evidence. The selected category must reflect the primary functionality of the repository rather than secondary or peripheral features. When no category is clearly supported or the available evidence is insufficient or ambiguous, annotators must assign the label ``others'' following a conservative strategy and write down a suitable category. In all cases, annotators must avoid speculation and must not infer hidden or unstated functionality.
+
+Overall, annotators follow a conservative and evidence-based principle: a category is assigned only when it is directly and clearly supported by the repository metadata.

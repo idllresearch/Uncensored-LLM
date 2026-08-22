@@ -1,0 +1,11 @@
+We classify each dataset into exactly one of three categories: de-aligned, toxic, or unknown. Annotators must base their decisions solely on the provided dataset metadata, including the dataset name, URL, and README text. No external sources are consulted, and no assumptions are made beyond explicitly stated information. In particular, annotators must not infer intent or properties that are not directly supported by the metadata.
+
+A dataset is labeled as ``de-aligned'' if there is explicit evidence that it is intended to reduce or remove alignment-related content. Such evidence includes statements about removing refusal or ethical content or responses. Importantly, the ``de-aligned'' label is applied only when these signals are present without explicit emphasis on harmful content itself.
+
+A dataset is labeled as  ``toxic'' if the metadata explicitly indicates that it focuses on harmful content. This includes datasets centered on violence, hate, harassment, sexual exploitation, self-harm encouragement, malicious code, fraud, or other forms of abusive or harmful instruction data. The ``toxic'' label is assigned when harmful content is a primary and explicit focus of the dataset.
+
+A dataset is labeled as ``unknown'' when there is no clear and explicit evidence supporting either de-aligned or toxic characteristics. This includes general-purpose datasets, datasets with ambiguous descriptions, or cases where the available metadata is insufficient to determine intent.
+
+Annotators must assign exactly one label per dataset. When multiple signals are present, annotators prioritize ``toxic'' if the dataset explicitly focuses on harmful content. Otherwise, ``de-aligned'' is assigned when the primary signal relates to the removal of safety or alignment mechanisms without an explicit focus on harmful content. If evidence is weak, incomplete, or ambiguous, annotators must assign ``unknown'' following a conservative strategy.
+
+Overall, annotators follow a conservative and evidence-based principle: labels are assigned only when supported by explicit metadata.
