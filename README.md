@@ -7,7 +7,7 @@
 If you find the above data and information are helpful for your research, please consider citing:
 
 ```
-@inproceedings{10.1145/3777912.3839799,
+@inproceedings{lin2026characterizing,
 author = {Lin, Zilong and Li, Zichuan and Liao, Xiaojing and Wang, XiaoFeng},
 title = {Characterizing the Ecosystem of Open-Source Uncensored Large Language Models: Supply Chain, Governance, and Risks},
 year = {2026},
