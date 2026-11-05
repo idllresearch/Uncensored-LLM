@@ -2,7 +2,7 @@
 
 [![DOI](https://img.shields.io/badge/DOI-10.1145/3777912.3839799-009682.svg)](https://dl.acm.org/doi/10.1145/3777912.3839799)
 [![arXiv](https://img.shields.io/badge/arXiv-2508.12622-b31b1b.svg)](https://arxiv.org/abs/2508.12622)
-[![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/idllresearch/Uncensored-LLM/)
+[![GitHub](https://img.shields.io/badge/github-Repo-blue?logo=github)](https://github.com/idllresearch/Uncensored-LLM/)
 
 This repository hosts the research artifacts for [the comprehensive measurement study](https://dl.acm.org/doi/10.1145/3777912.3839799) of open-source uncensored LLMs and their associated ecosystem, published at [the 26the ACM Internet Measurement Conference (IMC '26)](https://conferences.sigcomm.org/imc/2026/).
 
