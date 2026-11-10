@@ -14,7 +14,7 @@ This dataset contains **22,096 open-source uncensored LLMs**, collected from **f
 The identification is based on their publicly available model metadata.
 
 
-## Complete List of Open-Source Uncensored LLMs
+## UncensoredBench -- A QA Benchmark for Uncensored LLMs
 [![UncensoredBench](https://img.shields.io/badge/HuggingFace-UncensoredBench-yellow?logo=huggingface)](https://huggingface.co/datasets/idllresearch/UncensoredBench)
 [![UncensoredBench](https://img.shields.io/badge/GitHub-UncensoredBench-87CEFA?logo=github)](https://github.com/idllresearch/Uncensored-LLM/blob/main/list/UncensoredBench_QA.json)
 
